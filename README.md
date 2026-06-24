@@ -40,7 +40,7 @@ Navigate to the `Python-Challenge` folder to find python coding problem. The fol
     cd SQL-Challenge
     ```
 3.  **Load the Data**:
-    * Execute the provided `schema.sql` file for each problem in your local database. This will create all 5 tables and insert the sample data shown in the problem statements.
+    * Execute the provided `schema.sql` file for each problem in your local database (DBeaver) using ORM(SQLAlchemy,psycopg2,etc). This will create all 5 tables and insert the sample data shown in the problem statements.
 
 4. **For python problem**
    ```bash
