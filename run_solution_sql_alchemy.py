@@ -4,7 +4,7 @@ from getpass import getpass
 password = getpass("Enter MySQL password: ")
 # Connection string format:
 # dialect+driver://username:password@host:port/database
-engine = create_engine("mysql+pymysql://root:password@localhost:3306/solution")
+engine = create_engine(f"mysql+pymysql://root:{password}@localhost:3306/solution")
 
 # Read a solution file and execute
 def run_solution(filepath):
